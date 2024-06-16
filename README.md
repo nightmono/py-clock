@@ -4,6 +4,8 @@ A simple CLI clock with timer functionality.
 
 ![example](example.png)
 
+Made this for output practice.
+
 > [!Note]
 > Uses ANSI escape sequences. Make sure your command line has support.
 
