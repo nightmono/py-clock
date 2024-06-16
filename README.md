@@ -2,10 +2,10 @@
 
 A simple CLI clock with timer functionality. 
 
-```
+![example](example.png)
 
 > [!Note]
-> Uses ANSI escape sequences, otherwise it breaks. Make sure you're command line has support.
+> Uses ANSI escape sequences. Make sure your command line has support.
 
 ## Usage
 
