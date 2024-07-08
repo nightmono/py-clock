@@ -132,7 +132,10 @@ if __name__ == "__main__":
     import time
     from datetime import datetime
 
-    if len(sys.argv) > 1:
-        timer(int(sys.argv[1]))
-    else:
-        current_time()
+    try:
+        if len(sys.argv) > 1:
+            timer(int(sys.argv[1]))
+        else:
+            current_time()
+    except KeyboardInterrupt:
+        print("\nCancelled.")
